@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #BFD7E4;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #293241;
+    width: 100%;
+    height: 465px;
+    
+    padding-top: 107px;
+}
+
+header h1{
+    font-family: 'Staatliches';
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+header p{
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+header img{
+    margin-top: 30px;
+}
+
+
+form{
+    width: 750px;
+    height: 1075px;
+    background: #FFFFFF;
+
+    margin: 0 auto;
+
+    margin-top: -133px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+form #first-field{
+    background: #F67669;
+    width: 100%;
+    height: 133px;
+    border-radius: 20px 20px 0px 0px;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    font-family: 'Staatliches';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form fieldset{
+    border: none;
+}
+     
+.main-info{
+    display: flex;
+    gap: 22px;
+    padding: 0 64px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+
+}
+
+.person-info, .email-info{
+    width: 100%;
+    
+}
+
+
+.person-info input, .email-info input, .next-date input{
+    width: 100%;
+    height: 55px;
+
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    padding: 10px;
+}
+
+.email-info{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+span{
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+
+    gap: 7px;
+
+}
+
+.fielset-wrapper{
+    margin-top: 30px;
+    display: block;
+  
+}
+
+
+.fielset-wrapper legend{
+    text-align: center;
+    font-family: 'Staatliches';
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #253B51;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 7px;
+}
+
+.mentor-info, .feedback-mentor, .questions-mentor, .next-date{
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+
+   margin-bottom: 30px;
+   padding-top: 7px;
+}
+
+
+.questions-mentor {
+    position: relative;
+  }
+  
+  .questions-mentor label {
+    display:flex;
+    align-items: center;
+    gap: 16px;
+  
+    margin: 0;
+  }
+  
+  .questions-mentor input {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+  
+    opacity: 0;
+  }
+  
+  .questions-mentor label::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+  
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+  }
+  
+  .questions-mentor input:checked + label::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.00016 16.1698L4.83016 11.9998L3.41016 13.4098L9.00016 18.9998L21.0002 6.99984L19.5902 5.58984L9.00016 16.1698Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
+  }
+  
+  .questions-mentor input:focus + label::before {
+    outline: 2px solid black;
+  }
+
+
+
+
+.mentor-info select, .feedback-mentor textarea{
+    width: 100%;
+    height: 55px;
+
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    padding: 10px ;   
+}
+
+.feedback-mentor textarea{
+    width: 608px;
+    height: 166.59px;
+
+}
+
+
+.next-date{
+    display: flex;
+    gap: 32px;
+}
+
+.time-father{
+    display: flex;
+    gap: 10px;
+    width: 140px;
+    height: 55px;
+}
+
+.next-date> div:nth-child(1){
+    width: 100%;   
+    
+}
+
+
+.next-date > div:nth-child(2){
+    width: 50%;
+    
+}
+
+.next-date> div:nth-child(3){
+    width: 50%;
+    
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+
+    background: #F67669;
+    border-radius: 8px;
+
+    width: 622px;
+    height: 51px;
+
+    margin: 0 auto;
+
+}
+
+.submit button{
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 26px;
+    
+    background: transparent;
+    color: white;
+    appearance: none;
+   border:  transparent;
+   width: 100%;
+   cursor: pointer;
+}
+
+span:hover{
+    color: #5d5a68;
+}
+
+.submit:hover{
+    background-color: #c55144;
+}
+
