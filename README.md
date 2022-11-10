@@ -3,5 +3,5 @@ Projetos feitos durante o programa Explorer da Rockeseat
 
 (Organizado por pastas)
 
-#Mentoria-Form: Formulário de cadastro de mentoria     (Stage 3)
-#Avaliação-form: Formulário de avaliação de mentoria   (Stage 3)
+#Evento-Form    : Formulário para criação de evento    (Stage 3) <br>
+#Avaliação-form: Formulário de avaliação de mentoria   (Stage 3) <br>
