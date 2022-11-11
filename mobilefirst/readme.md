@@ -1,8 +1,10 @@
 
 <h1> Versão desktop: </h1>
 
-![preview desktop](https://user-images.githubusercontent.com/69219137/201401056-d22db968-d6df-492f-869b-b0a35122dcb7.png)
+![preview desktop](https://user-images.githubusercontent.com/69219137/201402893-1ef6f549-3c8f-4c3b-85fc-f9a8918833db.png)
+
 
 <h1> Versão mobile: </h1>
 
-![preview mobile](https://user-images.githubusercontent.com/69219137/201401061-cb7b99ea-d895-48fc-ab08-d637f2a6532e.png)
+
+![preview mobile](https://user-images.githubusercontent.com/69219137/201402907-44a882fb-9266-4a6f-ac25-0c32e55453f1.png)
