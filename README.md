@@ -9,3 +9,4 @@ Projetos feitos durante o programa Explorer da Rockeseat
 #mobilefirst: Landing page de introdução ao conceito de mobile first (Stage 3) <br>
 #componentes - Landing page de introdução ao conceito de grid (Stage 3) <br>
 #spacecreammb - Landing page (sorveteria) - mobile first (Stage 3) <br>
+#SpaceCream - Landing page (sorveteria) - Versão desktop com medias queries responsivos  (Stage 3) <br>
